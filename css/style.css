@@ -17,12 +17,18 @@ body {
 	padding: 0 3.125em;
 	font-family: "Montserrat", sans-serif;
 	background: #f16059;
+	border-radius: 1em;
 }
 
 h1 {
 	font-size: 2em;
 	color: #fff;
 	text-align: center;
+}
+
+h1 span {
+	text-transform: lowercase;
+	letter-spacing: 0.2em;
 }
 
 @media screen and (min-width: 768px) {
